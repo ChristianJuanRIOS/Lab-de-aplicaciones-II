@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Listas desordenadas</title>
+</head>
+<body>
+<h2>Nombre de alumnos</h2>
+<ul>
+  <li>Christian</li>
+  <li>Gonzalo</li>
+  <li>Perez</li>
+</ul>
+</body>
+</html>
