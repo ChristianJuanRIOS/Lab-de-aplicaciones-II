@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Listas definidas</title>
+</head>
+<body>
+
+<dl>
+  <dt>Nombre</dt>
+  <dd>Christian</dd>
+  
+  <dt>Apellido</dt>
+  <dd>Rios</dd>
+</dl>
+
+</body>
+</html>
