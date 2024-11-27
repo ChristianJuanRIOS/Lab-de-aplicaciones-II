@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi Página Web</title>
+</head>
+<body>
+	
+<h5>Mostrar GIF</h5>
+<p>GIF de un gato girando.</p>
+<hr style="border-top: 2px dashed #999;">
+<img src="/Almacenamiento interno/Download/maxwell-maxwell-cat.gif" alt="GIF">
+<h1>FIN</h1>
+
+</body>
+</html>
