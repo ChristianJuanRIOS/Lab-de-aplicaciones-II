@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Receta de pizza casera</title>
+</head>
+<body>
+<h1>Receta de pizza casera</h1>
+<img src="pizza.jpg" alt="Pizza casera">
+<h2>Ingredientes:</h2>
+<ul>
+<li>500g de harina de trigo</li>
+<li>1 sobre de levadura seca</li>
+<li>250ml de agua tibia</li>
+<li>2 cucharadas de aceite de oliva</li>
+<li>1 cucharadita de sal</li>
+<li>200g de salsa de tomate</li>
+<li>200g de mozzarella rayada</li>
+<li>Ingredientes adicionales al gusto: champiñones, jamón, pepperoni, etc.</li>
+</ul>
+<h2>Preparación:</h2>
+<ol>
+<li>En un bol grande, mezclar la harina, la levadura seca y la sal.</li>
+<li>Agregar el agua tibia y el aceite de oliva, y mezclar hasta obtener una masa suave y elástica.</li>
+  <li>Amasar la masa durante unos 5-10 minutos, luego dejar reposar en un lugar cálido durante 1 hora, o hasta que haya duplicado su tamaño.</li>
+  <li>Dividir la masa en porciones y extender cada porción en una bandeja para hornear.</li>
+  <li>Cubrir cada base de pizza con salsa de tomate y los ingredientes deseados.</li>
+  <li>Hornear en un horno precalentado a 220°C durante 15-20 minutos, o hasta que la base esté dorada y crujiente.</li>
+  <li>Servir caliente y disfrutar.</li>
+</ol>
+
+<p>Para ver cómo hacer esta receta paso a paso, mira este video en YouTube: <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://m.youtube.com/watch%3Fv%3DYtFFWpmqaT4&ved=2ahUKEwiyr6_eqp-GAxVRDrkGHR_8D7QQo7QBegQICxAG&usg=AOvVaw04qPFsQked4u9XRvJCRcQu" target="_blank">Cómo hacer Pizza Casera</a>.</p>
+
+</body>
+</html>
