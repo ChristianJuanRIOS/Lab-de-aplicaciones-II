@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes a Destinos Naturales</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: green;
+            color: white;
+            border-radius: 360px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid green;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgreen;
+            color: black;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    	<i>
+        <h1><i class="fas fa-plane" style= "color:#63E6BE;  transform: rotate(45deg);"></i> Descubre destinos <i class="fa fa-long-arrow-alt-right fa-sm"></i> increíbles <i class="fas fa-plane" style= "color:#63E6BE;  transform: rotate(315deg);"></i></h1>
+        <h5>Explora la belleza del mundo natural a través de nuestros viajes organizados.</h5>
+    </header>
+    
+    <section>
+        <h3>Imágenes de destinos Exóticos <i class="far fa-image"></i></h3>
+        <img src="/Almacenamiento interno/Download/Fiji.jpg" alt="Imagen de la isla Fiji">
+        <img src="/Almaceniamiento interno/Download/Islas.jpg"  alt="Imagen de las Islas Galápagos">
+    </section>
+
+    <section class="video-container">
+        <h2>Video sobre los 10 destinos que ofrecemos</h2>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/EP8rjbL9ucU" title="Video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h4>Paquetes de Viajes <i class="fa fa-box" ></i></h4>
+        <table class="table table-striped">
+            <tr>
+                <th>Destino</th>
+                <th>Duración <i class="fas fa-clock fa-spin"></i></th>
+                <th>Precio <i class="fas fa-dollar-sign"></i></th>
+            </tr>
+            <tr>
+                <td><i>Roatán</i></td>
+                <td>1 día</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td><i>Bora Bora</i></td>
+                <td>1 día</td>
+                <td>$720</td>
+            </tr>
+            <tr>
+                <td><i>Islas Maldivas</i></td>
+                <td>1 día</td>
+                <td>$1050</td>
+            </tr>
+            <tr>
+                <td><i>Santorini</i></td>
+                <td>2 días</td>
+                <td>$1230</td>
+            </tr>
+            <tr>
+                <td><i>Tulum</i></td>
+                <td>2 días</td>
+                <td>$1580</td>
+            </tr>
+            <tr>
+                <td><i>Seychelles</i></td>
+                <td>2 días</td>
+                <td>$1740</td>
+            </tr>
+            <tr>
+                <td><i>Islas Mauricio</i></td>
+                <td>2 días</td>
+                <td>$2010</td>
+            </tr>
+            <tr>
+                <td><i>Islas Fiji</i></td>
+                <td>2 días</td>
+                <td>$2160</td>
+            </tr>
+            <tr>
+                <td><i>Bali</i></td>
+                <td>3 días</td>
+                <td>$2270</td>
+            </tr>
+            <tr>
+                <td><i>Islas Galápagos</i></td>
+                <td>3 días</td>
+                <td>$2490</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="button-container">
+        <h3>Reservá tu Viaje Ahora</h3>
+       <h9><i class="fas fa-arrow-right"></i></h9><a href="https://www.example.com" class="button" onclick="confirmReservation()">Ir al sitio web</a><h9><i class="fas fa-arrow-left"></i></h9>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Viajes Naturales. Todos los derechos reservados.</p>
+    </footer>
+    </i>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function confirmReservation() {
+            if (!confirm('¿Estás seguro de que deseas reservar tu viaje ahora?')) {
+                event.preventDefault();
+            }
+        }
+    </script>
+
+</body>
+</html>
