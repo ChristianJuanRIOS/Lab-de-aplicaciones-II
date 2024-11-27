@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Materias de Taller (año pasado)</title>
+	
+	<h2>Materias de Taller(Año pasado)</h2>
+	
+<body>
+    <table align="center" border="1" bordercolor="green" width="75%">
+    <tr>
+        <th>Materia</th>
+        <th>Nota Final</th>
+    </tr>
+    <tr>
+        <td>Laboratorio de Aplicaciones</td>
+        <td>Aprobado(8)</td>
+    </tr>
+    <tr>
+        <td>Laboratorio de Hardware</td>
+        <td>Aprobado(9)</td>
+    </tr>
+    <tr>
+        <td>Laboratorio de S.O</td>
+        <td>Aprobado(8)</td>
+    </tr> 
+    <tr>
+        <td>Laboratorio de Programación</td>
+        <td>Aprobado(10)</td>
+    </tr>
+</table>
+
+</body>
+</html>
